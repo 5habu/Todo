@@ -15,6 +15,8 @@
 		3B37F15D285DD377005F869C /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3B37F15C285DD377005F869C /* RealmSwift */; };
 		3B37F15F285DD3B3005F869C /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B37F15E285DD3B3005F869C /* Ingredient.swift */; };
 		3B37F161285DD3C0005F869C /* IngredientDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B37F160285DD3C0005F869C /* IngredientDB.swift */; };
+		3B37F181285DEE46005F869C /* IngredientStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B37F180285DEE46005F869C /* IngredientStore.swift */; };
+		3B37F183285DEE55005F869C /* IngredientFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B37F182285DEE55005F869C /* IngredientFormView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		3B37F152285DD2A8005F869C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3B37F15E285DD3B3005F869C /* Ingredient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
 		3B37F160285DD3C0005F869C /* IngredientDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngredientDB.swift; sourceTree = "<group>"; };
+		3B37F180285DEE46005F869C /* IngredientStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngredientStore.swift; sourceTree = "<group>"; };
+		3B37F182285DEE55005F869C /* IngredientFormView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngredientFormView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,8 @@
 				3B37F14B285DD2A8005F869C /* TodoApp.swift */,
 				3B37F14D285DD2A8005F869C /* ContentView.swift */,
 				3B37F15E285DD3B3005F869C /* Ingredient.swift */,
+				3B37F180285DEE46005F869C /* IngredientStore.swift */,
+				3B37F182285DEE55005F869C /* IngredientFormView.swift */,
 				3B37F160285DD3C0005F869C /* IngredientDB.swift */,
 				3B37F14F285DD2A8005F869C /* Assets.xcassets */,
 				3B37F151285DD2A8005F869C /* Preview Content */,
@@ -155,6 +161,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B37F161285DD3C0005F869C /* IngredientDB.swift in Sources */,
+				3B37F183285DEE55005F869C /* IngredientFormView.swift in Sources */,
+				3B37F181285DEE46005F869C /* IngredientStore.swift in Sources */,
 				3B37F14E285DD2A8005F869C /* ContentView.swift in Sources */,
 				3B37F14C285DD2A8005F869C /* TodoApp.swift in Sources */,
 				3B37F15F285DD3B3005F869C /* Ingredient.swift in Sources */,
